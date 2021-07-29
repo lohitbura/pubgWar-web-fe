@@ -1,0 +1,124 @@
+html
+{
+scroll-behavior: smooth;
+}
+
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+div.anchorContainer
+{
+    float:left;
+    clear:left;
+}
+
+footer {
+    background-color: #e6e6fa;
+    padding: 30px 0 0 0;
+}
+footer a {
+    padding: 14px 10px 14px 0px;
+    color: #000000;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+  }
+
+footer h5,h1,p,h2 {
+    text-align: center;
+  
+}
+
+#first
+{
+    text-align: center;
+    padding: 180px 0px 0px 0px;
+}
+
+#second
+    {
+        text-align : center ; 
+        padding :  25px 0px 0px 0px;
+    }
+
+    #third
+    {
+        text-align : center ; padding :  45px 0px 0px 0px;
+    }
+    #forth
+    {
+        text-align : center ; padding :  245px 0px 0px 0px;
+    }
+#sixth
+{
+    text-align : center ; padding :  65px 0px 0px 0px;
+}
+
+#fifth
+{
+    text-align : center ; padding :  245px 0px 0px 0px;
+}
+
+@media  screen and (max-width: 766px) {
+   
+    #first{
+        text-align : center ;
+        padding :  25px 0px 0px 0px;
+    }
+    #second
+    {
+        text-align : center ; 
+        padding :  25px 0px 0px 0px;
+    }
+    #third
+    {
+        text-align : center ; 
+        padding :  25px 0px 0px 0px;
+    }
+    #forth
+    {
+        text-align : center ; 
+        padding :  25px 0px 0px 0px;
+    }
+    #fifth
+    {
+        text-align : center ; 
+        padding :  25px 0px 0px 0px;
+    }
+    #sixth
+    {
+        text-align : center ; 
+        padding :  25px 0px 0px 0px;
+    }
+  }
+
+  i {
+      color: white;
+    border-radius: 50%;
+    border: 1x solid grey;
+    padding:10px;
+   }
+  #fb
+  {
+      padding : 10px 14px;
+      background-color: #00008b;
+  }
+  #go
+  {
+      padding: 10px 11px;
+      background-color: #00d341;
+  }
+  #in
+  {
+      padding: 10px 11px;
+      /* background-image: linear-gradient(to right bottom, #6c1ad6, #860fcd, #9904c5, #aa00bc, #b700b4, #c400ab, #ce00a2, #d70099, #e1008d, #ea0081, #f00075, #f50069);*/
+      background-image: linear-gradient(to right top, #6c1ad6, #860fcd, #9904c5, #aa00bc, #b700b4, #c400ab, #ce00a2, #d70099, #e1008d, #ea0081, #f00075, #f50069);
+      /* background-color: #ff0000; */
+  }
+  #tw
+  {
+      background-color: #468284;
+  }
